@@ -1,3 +1,6 @@
+
+
+
 * {
     list-style: none;
 
@@ -6,7 +9,7 @@
 }
 
 body {
-        color: white;
+    color: white;
 }
 
 header {
@@ -78,12 +81,13 @@ header {
     margin: auto;
     width: 1000px;
 
-    h2 {
-        text-align: center;
-padding-bottom: 40px;
-    }
 
 }
+ h2 {
+        text-align: center;
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
 
 .hero {
     display: flex;
@@ -94,10 +98,90 @@ padding-bottom: 40px;
 .bg-w {
     background-color: white;
     color: black;
+
+
 }
 
-#photo .container{
+#photo .container {
     display: flex;
-justify-content: space-around;
-  
+    justify-content: space-around;
+
+}
+
+.padding-b {
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.card {
+width: 300px;
+    img {
+        width: 200px;
+    }
+
+
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+.cardTemoignages{
+    width: 200px;
+    background-color: #F3F3F3;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.fin{
+    display: flex;
+    gap: 20px;
+    p{
+        padding: 7px;
+    }
+    
+}
+
+.profil {
+    width: 50px;
+    height: 50px;
+}
+footer{
+   flex-wrap: wrap;
+ 
+}
+.icone{
+    color: white;
+    gap: 80px;
+    padding-bottom: 20px;
+    padding: 30px;
+   
+}
+form{
+    width: 650px;
+    padding-bottom: 5px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   
+
+}
+.enfin{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+
+button{
+  width: 90px;  
+}
+input{
+    width: 200px;
+    height: 40px;
+
 }
